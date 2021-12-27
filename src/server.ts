@@ -6,7 +6,6 @@ import { router } from './routes';
 import { ErrosApp } from './middlewares/Errors';
 
 const errors = new ErrosApp();
-
 const app = express();
 app.use(express.json());
 app.use(router);

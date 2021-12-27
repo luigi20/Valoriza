@@ -3,7 +3,7 @@ import 'express-async-errors';
 
 class ErrosApp {
 
-    async execute(err: Error, req: Request, res: Response, next: NextFunction) {
+    execute(err: Error, req: Request, res: Response, next: NextFunction) {
         if (err instanceof Error) {
             return res.status(400).json({ error: err.message });
         }
