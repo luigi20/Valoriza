@@ -21,15 +21,22 @@ Sinto muito orgulho de ter conseguido acompanhar e terminar na semana proposta p
  </p>
 
  <p align="center">
-  <img src="https://i1.wp.com/leblogducodeur.fr/wp-content/uploads/2019/12/composants-reactjs.png?fit=339%2C149&ssl=1" width="150" alt="React JS" align="center">
-  <p>ReactJS foi usado para o frontend, o ReactJS para desenvolver o frontend web da aplicação, curti demais pois o processo foi ver o projeto no Figma e dar vida a ele no formato de SPA ( Single-Page Application).</p>
+  <img src="https://blog-geek-midia.s3.amazonaws.com/wp-content/uploads/2021/05/14102116/o-que-e-typescript-1024x536.jpeg" width="150" alt="TypeScript" align="center">
+  <p>Linguagem de programação utilizada para introduzir o conceito de OOP ao Javascript e evitar dores de cabeça como funções sem o tipo do retorno</p>
 </p>
 
 
  <p align="center">
-  <img src="https://miro.medium.com/max/800/0*z58cqZWxu2_4q5-g.jpg" width="150" alt="PostgreSQL" align="center">
-  <p>PostgreSQL foi utilizado como banco de dados relacionável para guardar os dados da aplicação no Heroku</p>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/SQLite370.svg/1200px-SQLite370.svg.png" width="150" alt="SQLite" align="center">
+  <p>SQLite foi utilizado, pois ainda se tratar de uma aplicação em máquina local, mas quando fizer deploy dela mudarei para outro banco</p>
 </p>
+
+
+ <p align="center">
+  <img src="https://miro.medium.com/max/739/1*rTbyH3zL7Ue8VyTHRMRDAA.png" width="150" alt="TYPEORM" align="center">
+  <p>O framework TYPEORM foi utilizado para implementar ORM e assim escrever menos SQL no código </p>
+</p>
+
 
 
 ### Features Que Existiam
