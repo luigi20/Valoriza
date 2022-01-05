@@ -13,7 +13,6 @@ class CreateComplimentService {
         const complimentsRepositories = getCustomRepository(ComplimentsRepositories);
         const userRepositories = getCustomRepository(UsersRepositories);
         const userExists = await userRepositories.findOne(user_receiver);
-        console.log(userExists);
         if (user_sender === user_receiver) {
             throw new Error("Incorrect User Receiver");
         }
@@ -27,6 +26,7 @@ class CreateComplimentService {
             message
         });
         await complimentsRepositories.save(compliment);
+        return compliment;
     }
 }
 
