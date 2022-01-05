@@ -10,7 +10,10 @@ export function ensureAuthenticate(req: Request, res: Response, next: NextFuncti
     if (!authToken) {
         return res.status(401).json({ Error: "Token missing" });
     }
-    const [, token] = authToken.split(" ");
+    const [scheme, token] = authToken.split(" ");
+    if (!/^Bearer$/i.test(scheme)) {
+        res.status(401).send({ Error: "Token malformatted" })
+    }
     try {
         const { sub } = verify(token, "40b5a4737ca4fcbe00030d7f9ee98c77") as IPayload;
         req.user_id = sub;
